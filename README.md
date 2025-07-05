@@ -40,29 +40,6 @@
 - **Databricks Data Engineer Professional**
 
 ---
-
-## 🏆 Key Projects
-
-- **Crypto Research AI Agent:**  
-  Built an AI agent to analyze and answer questions on cryptocurrencies using real-time and historical data.
-
-- **Stocks Research AI Agent:**  
-  Developed a tool to generate research reports on stocks, including business overviews, performance, and sentiment analysis.
-
-- **Resume Parser AI:**  
-  Automated extraction of key information from resumes using NLP and Python.
-
-- **Social Media Sentiment Analyzer:**  
-  Classified sentiment from tweets and Reddit posts using machine learning.
-
-- **Data Cleaning Pipeline:**  
-  Created a robust pipeline to clean and standardize messy datasets for analytics.
-
-- **Real-Time Weather Dashboard:**  
-  Visualized live weather data using Python, APIs, and Streamlit.
-
----
-
 ## 💡 What I Can Do For You
 
 - Design and build robust, scalable data pipelines
@@ -71,14 +48,6 @@
 - Develop AI/ML models for analytics and automation
 - Enable real-time data processing and reporting
 - Collaborate effectively in remote, distributed teams
-
----
-
-## 📫 Let's Connect!
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/your-linkedin/)
-- 🐦 [Twitter](https://twitter.com/your-twitter)
-- 📧 Email: your.email@example.com
 
 ---
 
@@ -93,13 +62,13 @@
 ## ⚡ Fun Facts
 
 - I love solving data puzzles and automating boring stuff!
-- Always up for a hackathon or a tech talk.
+- Always up for a crypto, ai, web3, or data talk.
 - Coffee and code are my favorite combo ☕💻
 
 ---
 
 > “Data is the new oil, but insight is the new gold.”  
-> — [Your Name]
+> — Jabir
 
 ---
 
