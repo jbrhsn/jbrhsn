@@ -1,75 +1,67 @@
-# 👋 Hi, I'm Jabirhusain K P — Data & AI Engineer - Bengaluru, India
+# Jabirhusain K P
 
-![Python](https://img.shields.io/badge/Python-Expert-blue?logo=python)
-![Azure](https://img.shields.io/badge/Azure-Data%20Engineer-blue?logo=microsoft-azure)
-![Databricks](https://img.shields.io/badge/Databricks-Professional-orange?logo=databricks)
-![Remote Ready](https://img.shields.io/badge/Remote-Work%20Ready-green?logo=homeassistant)
+**Senior Data Engineer at IBM** · Bengaluru, India · Open to remote-first roles
 
----
-
-## 🚀 About Me
-
-- 🏢 **Data Engineer** with 3+ years of experience in designing, building, and optimizing data solutions.
-- 🌏 Based in **Bengaluru, India** — open to **remote opportunities** worldwide.
-- 🛠️ Passionate about **Python, SQL, Azure Data Services, Delta Lake, ADF, and Databricks**.
-- 🎯 Focused on building scalable data pipelines, automating workflows, and enabling data-driven decisions.
-- 🏅 **Certified:** DP-900, DP-203, DP-600, AI-102, Databricks Data Engineer Professional.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jabirhusain-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/jabirhusain)
+[![Website](https://img.shields.io/badge/Website-jabirhusain.in-111827?logo=safari&logoColor=white)](https://jabirhusain.in)
+[![Databricks](https://img.shields.io/badge/Databricks-Data%20Engineer%20Professional-FF3621?logo=databricks&logoColor=white)](https://credentials.databricks.com)
+[![Azure AI](https://img.shields.io/badge/Microsoft-Azure%20AI%20Engineer%20Associate-0078D4?logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/en-us/certifications)
 
 ---
 
-## 🧰 Tech Stack
+4+ years designing and operating petabyte-scale Azure Databricks Lakehouse platforms at IBM for global enterprise clients. Fast-tracked from fresher to Senior Data Engineer in under 3 years by building infrastructure that creates lasting, measurable value.
 
-| Language/Tool      | Proficiency | Highlights                                  |
-|--------------------|-------------|---------------------------------------------|
-| Python 🐍          | ⭐⭐⭐⭐⭐      | Data pipelines, automation, ML, scripting   |
-| SQL 🗄️             | ⭐⭐⭐⭐⭐      | Data modeling, ETL, analytics               |
-| Azure Data Services ☁️ | ⭐⭐⭐⭐   | Data Factory, Synapse, Data Lake, Functions |
-| Databricks 🔥      | ⭐⭐⭐⭐       | Delta Lake, Spark, ML pipelines             |
-| ADF ⚙️             | ⭐⭐⭐⭐       | Orchestration, data movement                |
-| Delta Lake 💧      | ⭐⭐⭐⭐       | Lakehouse architecture, data versioning     |
-| Git/GitHub 🐙      | ⭐⭐⭐⭐       | Version control, CI/CD                      |
+I also build production-grade AI systems from scratch — not API wrappers. My self-engineered multi-agent platform (LangGraph, RAG, vector memory) runs 5 specialized autonomous agents with config-driven prompt architecture that eliminates hallucinations and cuts token cost dramatically.
 
 ---
 
-## 📜 Certifications
+## What I have shipped
 
-- **DP-900:** Microsoft Azure Data Fundamentals
-- **DP-203:** Microsoft Azure Data Engineer Associate
-- **DP-600:** Microsoft Fabric Analytics Engineer Associate
-- **AI-102:** Microsoft Azure AI Engineer Associate
-- **Databricks Data Engineer Professional**
+**DataOps Observability Platform** — Designed and built a unified monitoring system from scratch for 200+ pipelines across SAP Data Intelligence, Azure Data Factory, and Databricks. Centralized into a Power BI dashboard with automated Logic App alerting. Cut daily manual monitoring by **80%** (1.0 FTE to 0.2 FTE). Adopted as the account-wide standard.
 
----
-## 💡 What I Can Do For You
+**FinOps Optimization** — Migrated short-duration pipelines from always-on interactive compute to ephemeral Job Compute nodes, and applied strategic Z-Ordering on SHA256 key columns across Delta tables. Delivered **~50% reduction in Databricks compute cost** and **~30% reduction in storage spend** — yielding **€1,000+/month** in recurring savings.
 
-- Design and build robust, scalable data pipelines
-- Automate ETL workflows and data quality checks
-- Implement cloud-native data solutions (Azure, Databricks)
-- Develop AI/ML models for analytics and automation
-- Enable real-time data processing and reporting
-- Collaborate effectively in remote, distributed teams
+**Enterprise AI Assistants** — Independently built three domain-specialized AI assistants on the IBM Consulting Advantage platform (Databricks Transform Expert, User Story Generator, RAG-powered Operations Helper). Secured IBM Data Service Line-wide adoption. Recovered **50-60 engineering hours per month** across the practice.
+
+**Aria — Multi-Agent AI Platform** — Self-engineered production AI platform using LangGraph. YAML config-driven engine injects tailored prompts and tool sets per action at runtime. Async Plan-Execute-Evaluate-Respond ReAct graph with a self-evaluation node scoring output quality across 5 vectors. Hybrid sqlite-vec relational and semantic memory for long-horizon retrieval. Runs 5 specialized agents on cost-effective models via OpenRouter.
+
+**Data Corruption Recovery** — Recovered 200M to 2B row production tables using Delta Lake time-travel and targeted partition-level reprocessing. Saved **70% compute cost** and **30% engineering effort** vs. a full-table rerun while keeping downstream SLA timelines intact.
 
 ---
 
-## 🌱 Currently Learning
+## Stack
 
-- Advanced MLOps and DataOps
-- Real-time analytics with Apache Kafka and Spark Streaming
-- Edge AI and cloud-native ML deployment
+**Data platform**
+`Azure Databricks` `PySpark` `Delta Lake` `Unity Catalog` `Azure Data Factory` `SAP Data Intelligence` `Medallion Architecture` `Azure DevOps`
 
----
+**Languages**
+`Python` `SQL` `PySpark`
 
-## ⚡ Fun Facts
+**AI / GenAI**
+`LangGraph` `RAG` `Multi-Agent Systems` `Prompt Engineering` `sqlite-vec` `OpenRouter` `Docker`
 
-- I love solving data puzzles and automating boring stuff!
-- Always up for a crypto, ai, web3, or data talk.
-- Coffee and code are my favorite combo ☕💻
-
----
-
-> “Data is the new oil, but insight is the new gold.”  
-> — Jabir
+**Analytics**
+`Microsoft Fabric` `Power BI` `Azure Monitor` `Azure Logic Apps`
 
 ---
 
-*Feel free to check out my repositories below for code samples, project demos, and more!*
+## Certifications
+
+| Credential | Issuer | Valid |
+|---|---|---|
+| Databricks Certified Data Engineer Professional | Databricks | Jan 2027 |
+| Microsoft Certified: Azure AI Engineer Associate (AI-102) | Microsoft | Jun 2027 |
+| Microsoft Certified: Fabric Analytics Engineer Associate (DP-600) | Microsoft | Apr 2027 |
+| Microsoft Certified: Azure Data Engineer Associate (DP-203) | Microsoft | Retired |
+
+---
+
+## Currently building
+
+- Kafka + Spark Structured Streaming end-to-end pipeline with exactly-once semantics and schema evolution
+- dbt transformation layer over Lakehouse Gold
+- Terraform provisioning for full-stack data infrastructure
+
+---
+
+*Senior Data Engineer roles · Data Platform Engineer · AI Infrastructure Engineer · Bengaluru hybrid / Kochi hybrid / Remote*
