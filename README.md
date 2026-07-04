@@ -18,11 +18,13 @@ Bengaluru, India &nbsp;·&nbsp; Open to remote-first, Bengaluru hybrid, and Koch
 
 ## About
 
-Engineer operating at the convergence of enterprise-scale data platforms and applied autonomous AI systems. 4+ years at IBM on the Heineken global retail &amp; beverages engagement, fast-tracked from Graduate Data Engineer to Data Engineer in under four years via two merit promotions.
+Data &amp; AI Engineer operating at the convergence of enterprise-scale data platforms and applied autonomous AI systems. Across 4+ years at IBM on the Heineken global retail &amp; beverages engagement, I own high-impact, quantifiable outcomes: an 80% cut in daily monitoring effort (1.0 to 0.2 FTE) from a DataOps observability platform built from scratch, ~50% compute and ~30% storage savings (&euro;1,000+/month) through FinOps re-architecture, and 50-60 engineering hours/month recaptured org-wide through three AI assistants. My work pattern is consistent: diagnose platform overheads, quantify their business cost, and engineer automated root-cause solutions that become the standard.
 
-I work across the full depth of the stack &mdash; from low-level Delta Lake file-layout tuning on a ~6 PB lakehouse to high-level multi-agent GenAI architecture with LangGraph. Rather than wrapping APIs, I design custom self-engineered systems and reason through the trade-offs around context length, cost boundaries, state machines, and data security.
+I work across the full depth of the stack, from low-level Delta Lake file-layout tuning on a ~6 PB lakehouse to high-level multi-agent GenAI architecture with LangGraph. Rather than wrapping APIs, I design custom self-engineered systems and reason through the trade-offs around context length, cost boundaries, state machines, and data security.
 
-Beyond individual contribution, I act as an architectural decision-maker and standards driver on the account &mdash; owning code reviews as a quality gatekeeper, coordinating cross-functional stakeholder alignment, and championing tooling adopted beyond original team scope. Cost-consciousness is a design discipline: every significant project ships with a measurable FinOps outcome attached.
+Beyond individual contribution, I act as an architectural decision-maker and standards driver on the account: owning code reviews as a quality gatekeeper, coordinating cross-functional stakeholder alignment, and championing tooling adopted beyond original team scope. Cost-consciousness is a design discipline, with a measurable FinOps outcome attached to every significant project.
+
+Trajectory (evidence, not the headline):
 
 ```text
 Jun 2022   ->   Joined IBM as Graduate Data Engineer
@@ -39,35 +41,35 @@ Jan 2025   ->   Data Engineer (Heineken Account)
 
 ## Featured Projects (self-engineered)
 
-### Aria &mdash; Config-Driven Multi-Agent AI Platform
+### Aria - Config-Driven Multi-Agent AI Platform
 
 [![Repo](https://img.shields.io/badge/GitHub-aria__multi__agent__bot-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jbrhsn/aria_multi_agent_bot)
 &nbsp;`LangGraph` &nbsp;`Python` &nbsp;`sqlite-vec` &nbsp;`Docker` &nbsp;`discord.py`
 
-A self-engineered production-grade AI platform running **5 specialized autonomous agents** (Goal, Learning, Research, Health, Finance) through a single Discord bot. *(Single-operator system &mdash; production-grade engineering, not production traffic or scale.)*
+A self-engineered production-grade AI platform running **5 specialized autonomous agents** (Goal, Learning, Research, Health, Finance) through a single Discord bot. *(Single-operator system - production-grade engineering, not production traffic or scale.)*
 
-- **YAML config-driven engine** &mdash; every agent is an instance of one shared `ReActAgent`, described declaratively; runtime-injected prompts and tools minimize context bloat, drop token overhead, and neutralize hallucinations. Adding a new agent is mostly writing a YAML file.
-- **Auto-generated typed CRUD** &mdash; a generator parses each agent's `CREATE TABLE` schema at startup and emits six typed tools per table, so the data model *is* the tool surface.
-- **ReAct state graph** &mdash; `Decide -> Plan -> Execute <-> Tools -> Evaluate -> Final`, a synchronous LangGraph run made concurrent per user via `asyncio.to_thread` and per-user async locks, with a self-evaluation node scoring output across five vectors (feasibility, completeness, accuracy, safety, clarity) under explicit tool-call budgets and evaluation-loop caps.
-- **Hybrid memory** &mdash; `sqlite-vec` (`vec0`) for relational + semantic storage with KNN retrieval, a self-optimization pass (near-dup detection, Union-Find clustering, LLM merge), and a self-growing cross-agent knowledge base.
-- **Multi-tenant isolation &amp; safe concurrency** &mdash; per-user relational and vector DBs, WAL mode, fail-fast Pydantic config, SQLite authorizer, prompt-injection redaction.
-- **Delivery** &mdash; installable `aria` package, multi-stage Docker build + `docker-compose` (non-root), verified by a fully offline suite of **248 tests at ~91% coverage**, `ruff`-gated on every change.
+- **YAML config-driven engine** - every agent is an instance of one shared `ReActAgent`, described declaratively; runtime-injected prompts and tools minimize context bloat, drop token overhead, and neutralize hallucinations. Adding a new agent is mostly writing a YAML file.
+- **Auto-generated typed CRUD** - a generator parses each agent's `CREATE TABLE` schema at startup and emits six typed tools per table, so the data model *is* the tool surface.
+- **ReAct state graph** - `Decide -> Plan -> Execute <-> Tools -> Evaluate -> Final`, a synchronous LangGraph run made concurrent per user via `asyncio.to_thread` and per-user async locks, with a self-evaluation node scoring output across five vectors (feasibility, completeness, accuracy, safety, clarity) under explicit tool-call budgets and evaluation-loop caps.
+- **Hybrid memory** - `sqlite-vec` (`vec0`) for relational + semantic storage with KNN retrieval, a self-optimization pass (near-dup detection, Union-Find clustering, LLM merge), and a self-growing cross-agent knowledge base.
+- **Multi-tenant isolation &amp; safe concurrency** - per-user relational and vector DBs, WAL mode, fail-fast Pydantic config, SQLite authorizer, prompt-injection redaction.
+- **Delivery** - installable `aria` package, multi-stage Docker build + `docker-compose` (non-root), verified by a fully offline suite of **248 tests at ~91% coverage**, `ruff`-gated on every change.
 
-### resume_writer (Agentic-CV-Expert) &mdash; Agentic Resume Orchestrator
+### resume_writer (Agentic-CV-Expert) - Agentic Resume Orchestrator
 
 `LangGraph` &nbsp;`Python` &nbsp;`FastAPI` &nbsp;`Pydantic` &nbsp;`tectonic`
 
-A self-engineered LangGraph orchestration system that simulates a hiring committee across four adversarial personas &mdash; CEO, Senior Hiring Manager, Recruiter, and ATS Specialist &mdash; producing job-tailored resumes through recursive multi-perspective critique. *(Single-operator project &mdash; production-grade engineering.)*
+A self-engineered LangGraph orchestration system that simulates a hiring committee across four adversarial personas - CEO, Senior Hiring Manager, Recruiter, and ATS Specialist - producing job-tailored resumes through recursive multi-perspective critique. *(Single-operator project - production-grade engineering.)*
 
-- **14-node graph** &mdash; parallel extraction (`analyze_jd` + `parse_profile` -> `gap_analysis`), parallel four-persona planning joined by a `plan_conflict_resolution` mediator feeding a `final_plan` blueprint, and a score-gated self-correction loop (CEO &gt;= 80, Senior &gt;= 80, Recruiter &gt;= 85) capped at 3 editing cycles.
-- **Per-task model routing** &mdash; five task classes (analysis, planning, writing, evaluation, LaTeX export), each independently retargetable via `RW_*_MODEL` over OpenRouter.
-- **Structured output contract** &mdash; seven Pydantic-typed schemas via `.with_structured_output()`, eliminating regex post-processing.
-- **Multi-format export &amp; web UI** &mdash; Markdown -> LaTeX -> PDF (compiled by `tectonic`, degrading gracefully), plus a FastAPI single-page UI streaming live per-node progress over Server-Sent Events.
-- **Reliability &amp; testability** &mdash; `safe_invoke` with exponential backoff, dependency-injected `NodeDeps`, verified by a fully network-free suite of **51 tests** (LLM stubbed via `FakeLLM`). Self-reported at 60-120s per full loop with sub-1% hallucination rate *(not third-party audited)*.
+- **14-node graph** - parallel extraction (`analyze_jd` + `parse_profile` -> `gap_analysis`), parallel four-persona planning joined by a `plan_conflict_resolution` mediator feeding a `final_plan` blueprint, and a score-gated self-correction loop (CEO &gt;= 80, Senior &gt;= 80, Recruiter &gt;= 85) capped at 3 editing cycles.
+- **Per-task model routing** - five task classes (analysis, planning, writing, evaluation, LaTeX export), each independently retargetable via `RW_*_MODEL` over OpenRouter.
+- **Structured output contract** - seven Pydantic-typed schemas via `.with_structured_output()`, eliminating regex post-processing.
+- **Multi-format export &amp; web UI** - Markdown -> LaTeX -> PDF (compiled by `tectonic`, degrading gracefully), plus a FastAPI single-page UI streaming live per-node progress over Server-Sent Events.
+- **Reliability &amp; testability** - `safe_invoke` with exponential backoff, dependency-injected `NodeDeps`, verified by a fully network-free suite of **51 tests** (LLM stubbed via `FakeLLM`). Self-reported at 60-120s per full loop with sub-1% hallucination rate *(not third-party audited)*.
 
 ---
 
-## Enterprise Impact &mdash; IBM / Heineken
+## Enterprise Impact - IBM / Heineken
 
 | Initiative | Outcome |
 | --- | --- |
@@ -81,10 +83,10 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 
 ## Leadership &amp; Governance (IC-level)
 
-- **Enterprise data governance** &mdash; function-backed Row-Level Security (RLS) views over Silver Delta tables; driving migration toward Attribute-Based Access Control (ABAC) in Databricks Unity Catalog.
-- **Engineering governance** &mdash; code-quality gatekeeper owning PySpark and SQL code reviews; coordinates CI/CD rollouts via Azure DevOps Pipelines.
-- **Architectural decision-making** &mdash; Unity Catalog adoption strategy, compute-tier selection, and data-layout standards on the client engagement.
-- **Standards adoption &amp; mentorship** &mdash; formalized observability and AI-tooling standards beyond team scope; mentors junior engineers on lakehouse internals and optimization patterns.
+- **Enterprise data governance** - function-backed Row-Level Security (RLS) views over Silver Delta tables; driving migration toward Attribute-Based Access Control (ABAC) in Databricks Unity Catalog.
+- **Engineering governance** - code-quality gatekeeper owning PySpark and SQL code reviews; coordinates CI/CD rollouts via Azure DevOps Pipelines.
+- **Architectural decision-making** - Unity Catalog adoption strategy, compute-tier selection, and data-layout standards on the client engagement.
+- **Standards adoption &amp; mentorship** - formalized observability and AI-tooling standards beyond team scope; mentors junior engineers on lakehouse internals and optimization patterns.
 
 ---
 
@@ -137,8 +139,8 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 
 | Degree | Institution | Timeline |
 | --- | --- | --- |
-| **Master of Computer Applications (MCA)** | Cochin University of Science and Technology (CUSAT), Kochi | 2020 &ndash; 2022 |
-| **BSc in Computer Science** | Sri C Achutha Menon Government College, Thrissur | 2015 &ndash; 2018 |
+| **Master of Computer Applications (MCA)** | Cochin University of Science and Technology (CUSAT), Kochi | 2020 to 2022 |
+| **BSc in Computer Science** | Sri C Achutha Menon Government College, Thrissur | 2015 to 2018 |
 
 ---
 
