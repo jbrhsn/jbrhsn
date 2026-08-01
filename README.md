@@ -2,7 +2,7 @@
 
 # Jabirhusain KP
 
-### Data Engineer — Senior-Scope Platform & AI Delivery
+### Data Engineer — Platform Architecture & Applied AI Delivery
 
 **Enterprise-scale data platforms &nbsp;·&nbsp; Applied autonomous AI systems**
 
@@ -18,7 +18,7 @@ Bengaluru, India &nbsp;·&nbsp;
 
 ## About
 
-Data Engineer operating at senior scope on enterprise-scale platform architecture, with applied AI systems engineering as a differentiating second strength. Across 4+ years at IBM on the Heineken global retail &amp; beverages engagement, I own high-impact, quantifiable outcomes: an 80% cut in daily monitoring effort (1.0 to 0.2 FTE) from a DataOps observability platform built from scratch, ~50% compute and ~30% storage savings (&euro;1,000+/month) through FinOps re-architecture, and 50-60 engineering hours/month recaptured org-wide through three AI assistants. My work pattern is consistent: diagnose platform overheads, quantify their business cost, and engineer automated root-cause solutions that become the standard.
+Data Engineer with substantial scope on enterprise-scale platform architecture, with applied AI systems engineering as a differentiating second strength. Across 4+ years at IBM on the Heineken global retail &amp; beverages engagement, I own high-impact, quantifiable outcomes: an 80% cut in daily monitoring effort (1.0 to 0.2 FTE) from a DataOps observability platform I helped build as one of three engineers, ~50% compute savings and a major reduction in storage footprint (&euro;1,000+/month) through a FinOps re-architecture I co-led with one peer engineer, and 50-60 engineering hours/month recaptured org-wide through three AI assistants I built independently. My work pattern is consistent: diagnose platform overheads, quantify their business cost, and engineer automated root-cause solutions that become the standard.
 
 On the Heineken engagement, my depth spans low-level Delta Lake file-layout tuning on a ~6 PB lakehouse to applied AI engineering via IBM's ICA assistants. Outside of work, I design custom multi-agent frameworks using LangGraph in self-engineered personal projects (see Featured Projects, below) - rather than simply wrapping APIs, I work through architectural trade-offs around context length, cost boundaries, state machines, and data security.
 
@@ -30,7 +30,7 @@ Trajectory (evidence, not the headline):
 Jun 2022   ->   Joined IBM as Graduate Data Engineer
                 v  [merit fast-track + rapid upskilling]
 Jun 2023   ->   Promoted to Associate Data Engineer
-                v  [senior-level responsibilities]
+                v  [growing scope and ownership on the account]
 Jan 2025   ->   Data Engineer (Heineken Account)
                 v  DataOps observability, advanced FinOps, code-review
                    ownership, architectural decisions, production
@@ -76,8 +76,8 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 
 | Initiative | Outcome |
 | --- | --- |
-| **DataOps Observability Platform** (built from scratch, 200+ pipelines) | 80% cut in daily manual monitoring (1.0 FTE -> 0.2 FTE); adopted as the account-wide standard |
-| **FinOps &amp; Performance Tuning** (Job Compute migration, Z-Ordering) | ~50% compute cost reduction · ~30% storage reduction · &euro;1,000+/month recurring savings |
+| **DataOps Observability Platform** (one of 3 engineers, core development + architectural decisions, 200+ pipelines) | 80% cut in daily manual monitoring (1.0 FTE -> 0.2 FTE); adopted as the account-wide standard |
+| **FinOps &amp; Performance Tuning** (co-led 50/50 with one peer engineer; Job Compute migration, Z-Ordering) | ~50% compute cost reduction · major reduction in storage footprint · &euro;1,000+/month recurring savings |
 | **Infrastructure Resilience Automation** (Logic App retry orchestrator) | Eliminated a major class of transient-failure tickets; preserved downstream SLAs |
 | **Enterprise AI Assistants** (3 domain-specialized tools on IBM ICA) | 50-60 engineering hours/month recaptured; scaled org-wide by the IBM Data Service Line |
 | **Multi-Billion Record Recovery** (200M-2B row tables) | ~2M corrupted rows reprocessed in 6-8 hours vs. an estimated 3-day full-table reload; SLA timelines preserved |
@@ -141,10 +141,10 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 
 ## Education
 
-| Degree | Institution | Timeline |
-| --- | --- | --- |
-| **Master of Computer Applications (MCA)** | Cochin University of Science and Technology (CUSAT), Kochi 
-| **BSc in Computer Science** | Sri C Achutha Menon Government College, Thrissur 
+| Degree | Institution |
+| --- | --- |
+| **Master of Computer Applications (MCA)** | Cochin University of Science and Technology (CUSAT), Kochi |
+| **BSc in Computer Science** | Sri C Achutha Menon Government College, Thrissur |
 
 ---
 
