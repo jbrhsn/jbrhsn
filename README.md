@@ -2,11 +2,11 @@
 
 # Jabirhusain KP
 
-### Data &amp; AI Engineer
+### Data Engineer — Senior-Scope Platform & AI Delivery
 
 **Enterprise-scale data platforms &nbsp;·&nbsp; Applied autonomous AI systems**
 
-Bengaluru, India &nbsp;·&nbsp; Open to remote-first, Bengaluru hybrid, and Kochi hybrid roles
+Bengaluru, India &nbsp;·&nbsp;
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jabirhusain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jabirhusain)
 [![GitHub](https://img.shields.io/badge/GitHub-jbrhsn-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jbrhsn)
@@ -18,9 +18,9 @@ Bengaluru, India &nbsp;·&nbsp; Open to remote-first, Bengaluru hybrid, and Koch
 
 ## About
 
-Data &amp; AI Engineer operating at the convergence of enterprise-scale data platforms and applied autonomous AI systems. Across 4+ years at IBM on the Heineken global retail &amp; beverages engagement, I own high-impact, quantifiable outcomes: an 80% cut in daily monitoring effort (1.0 to 0.2 FTE) from a DataOps observability platform built from scratch, ~50% compute and ~30% storage savings (&euro;1,000+/month) through FinOps re-architecture, and 50-60 engineering hours/month recaptured org-wide through three AI assistants. My work pattern is consistent: diagnose platform overheads, quantify their business cost, and engineer automated root-cause solutions that become the standard.
+Data Engineer operating at senior scope on enterprise-scale platform architecture, with applied AI systems engineering as a differentiating second strength. Across 4+ years at IBM on the Heineken global retail &amp; beverages engagement, I own high-impact, quantifiable outcomes: an 80% cut in daily monitoring effort (1.0 to 0.2 FTE) from a DataOps observability platform built from scratch, ~50% compute and ~30% storage savings (&euro;1,000+/month) through FinOps re-architecture, and 50-60 engineering hours/month recaptured org-wide through three AI assistants. My work pattern is consistent: diagnose platform overheads, quantify their business cost, and engineer automated root-cause solutions that become the standard.
 
-I work across the full depth of the stack, from low-level Delta Lake file-layout tuning on a ~6 PB lakehouse to high-level multi-agent GenAI architecture with LangGraph. Rather than wrapping APIs, I design custom self-engineered systems and reason through the trade-offs around context length, cost boundaries, state machines, and data security.
+On the Heineken engagement, my depth spans low-level Delta Lake file-layout tuning on a ~6 PB lakehouse to applied AI engineering via IBM's ICA assistants. Outside of work, I design custom multi-agent frameworks using LangGraph in self-engineered personal projects (see Featured Projects, below) - rather than simply wrapping APIs, I work through architectural trade-offs around context length, cost boundaries, state machines, and data security.
 
 Beyond individual contribution, I act as an architectural decision-maker and standards driver on the account: owning code reviews as a quality gatekeeper, coordinating cross-functional stakeholder alignment, and championing tooling adopted beyond original team scope. Cost-consciousness is a design discipline, with a measurable FinOps outcome attached to every significant project.
 
@@ -41,6 +41,8 @@ Jan 2025   ->   Data Engineer (Heineken Account)
 
 ## Featured Projects (self-engineered)
 
+*Personal engineering work, built independently outside of IBM employment - not professional/job experience.*
+
 ### Aria - Config-Driven Multi-Agent AI Platform
 
 [![Repo](https://img.shields.io/badge/GitHub-aria__multi__agent__bot-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jbrhsn/aria_multi_agent_bot)
@@ -57,7 +59,8 @@ A self-engineered production-grade AI platform running **5 specialized autonomou
 
 ### resume_writer (Agentic-CV-Expert) - Agentic Resume Orchestrator
 
-`LangGraph` &nbsp;`Python` &nbsp;`FastAPI` &nbsp;`Pydantic` &nbsp;`tectonic`
+[![Repo](https://img.shields.io/badge/GitHub-resume__writer-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jbrhsn/resume_writer)
+&nbsp;`LangGraph` &nbsp;`Python` &nbsp;`FastAPI` &nbsp;`Pydantic` &nbsp;`tectonic`
 
 A self-engineered LangGraph orchestration system that simulates a hiring committee across four adversarial personas - CEO, Senior Hiring Manager, Recruiter, and ATS Specialist - producing job-tailored resumes through recursive multi-perspective critique. *(Single-operator project - production-grade engineering.)*
 
@@ -77,13 +80,11 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 | **FinOps &amp; Performance Tuning** (Job Compute migration, Z-Ordering) | ~50% compute cost reduction · ~30% storage reduction · &euro;1,000+/month recurring savings |
 | **Infrastructure Resilience Automation** (Logic App retry orchestrator) | Eliminated a major class of transient-failure tickets; preserved downstream SLAs |
 | **Enterprise AI Assistants** (3 domain-specialized tools on IBM ICA) | 50-60 engineering hours/month recaptured; scaled org-wide by the IBM Data Service Line |
-| **Multi-Billion Record Recovery** (200M-2B row tables) | 70% compute savings &amp; 30% effort savings vs. a full rerun; SLA timelines preserved |
+| **Multi-Billion Record Recovery** (200M-2B row tables) | ~2M corrupted rows reprocessed in 6-8 hours vs. an estimated 3-day full-table reload; SLA timelines preserved |
 
 ---
 
 ## Leadership &amp; Governance (IC-level)
-
-- **Enterprise data governance** - function-backed Row-Level Security (RLS) views over Silver Delta tables; driving migration toward Attribute-Based Access Control (ABAC) in Databricks Unity Catalog.
 - **Engineering governance** - code-quality gatekeeper owning PySpark and SQL code reviews; coordinates CI/CD rollouts via Azure DevOps Pipelines.
 - **Architectural decision-making** - Unity Catalog adoption strategy, compute-tier selection, and data-layout standards on the client engagement.
 - **Standards adoption &amp; mentorship** - formalized observability and AI-tooling standards beyond team scope; mentors junior engineers on lakehouse internals and optimization patterns.
@@ -129,8 +130,11 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 | Credential | Issuer | Status | Valid Until |
 | --- | --- | --- | --- |
 | **Databricks Certified Data Engineer Professional** | Databricks | Active | Jan 2027 |
+| **Databricks Certified Generative AI Engineer Associate** | Databricks | Active | Jul 2028 |
 | **Microsoft Certified: Azure AI Engineer Associate** | Microsoft | Active | Jun 2027 |
 | **Microsoft Certified: Fabric Analytics Engineer Associate** | Microsoft | Active | Apr 2027 |
+| watsonx Orchestrate Practitioner Advanced | IBM | Active | Apr 2027 |
+| PCEP - Certified Entry-Level Python Programmer | Python Institute | Active | No expiration |
 | Microsoft Certified: Azure Data Engineer Associate (DP-203) | Microsoft | Retired | Jan 2026 |
 
 ---
@@ -139,14 +143,12 @@ A self-engineered LangGraph orchestration system that simulates a hiring committ
 
 | Degree | Institution | Timeline |
 | --- | --- | --- |
-| **Master of Computer Applications (MCA)** | Cochin University of Science and Technology (CUSAT), Kochi | 2020 to 2022 |
-| **BSc in Computer Science** | Sri C Achutha Menon Government College, Thrissur | 2015 to 2018 |
+| **Master of Computer Applications (MCA)** | Cochin University of Science and Technology (CUSAT), Kochi 
+| **BSc in Computer Science** | Sri C Achutha Menon Government College, Thrissur 
 
 ---
 
 <div align="center">
-
-*Targeting Senior Data Engineer · Data Platform Engineer · AI Infrastructure Engineer · AI Engineer (IC track)*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-jabirhusain-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jabirhusain)
 [![GitHub](https://img.shields.io/badge/GitHub-jbrhsn-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jbrhsn)
